@@ -1,0 +1,16 @@
+class Animal(object):
+	pass
+
+class RunableMixIn():
+	pass
+
+class FlyableMixIn():
+	pass
+
+class Dog(Animal,RunableMixIn):
+	pass
+
+class Bird(Animal,FlyableMinIn):
+	pass
+
+使用MixIn来设计更加复杂的功能，而不是设计多层次的复杂的继承关系
